@@ -1,0 +1,106 @@
+.about-container{
+    padding-bottom: 7rem;
+    position: absolute;   
+    width: fit-content;
+}
+.about-container  h2{
+/* text-align: center; */
+margin-bottom:2.5rem;
+padding: 0.5rem ;
+font-size: 2.5rem;
+color: crimson;
+}
+.about-personal-info{
+    /* display: flex; */
+   /* align-items: center; */
+   /* gap: 8rem; */
+   /* width: fit-content; */
+   line-height:3rem;
+   /* width: fit-content; */
+   /* margin: 0 2rem; */
+}
+/* .about-personal-info-heading{    
+    color: rgb(237, 222, 222);
+    line-height:3rem;
+}
+.about-personal-info-box{
+    display: flex;
+    gap: 4rem;
+    margin-top: 4rem;
+} */
+.box{ 
+    background:rgba(0, 0, 0,1); 
+    color: white;
+    /* margin: 0 10px; */
+    /* width: fit-content; */
+    padding: 10px;
+    line-height:2rem;
+   border-radius: 10px;    
+   height:fit-content;
+}
+.about-box-heading{
+    /* margin-bottom: 2rem; */
+    /* font-size: 2.5rem; */
+    /* color:crimson; */
+}
+.skill-box{
+    /* display: grid; */
+    /* padding-left: 5%;    */
+    /* grid-template-columns: repeat(5,1fr); */
+    /* gap: 2rem; */
+    /* width: fit-content; */
+    /* text-align: center; */
+}
+.heading{
+    margin:2rem 0;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    /* width: fit-content; */
+}
+.skill-box-icon{
+    height: 3.5rem;
+}
+.gridd{
+    /* display:grid; */
+    /* grid-template-columns: auto auto; */
+    /* padding: 2rem; */
+}
+.education1{   
+    border-left: 1px solid rgb(255, 255, 255);   
+   /* height: 12rem; */
+   position: relative;
+    padding-left:15%;                                                       
+    line-height: 1.5rem;    
+    margin-left: 6%;
+    /* border: 2px solid  white; */
+}
+.education1>h3{
+    color: crimson;
+    margin-top: 1.5rem;
+
+}
+.education1>span{
+    background: #343434e6;
+    padding: 0.2rem 0.7rem;
+    border-radius: 5rem;    
+}
+.about-svg{
+    position: absolute;
+    top: -1rem;
+    left: -1.5rem;
+    border-radius: 50%;
+     padding: 12px;
+    color: rgb(255, 255, 255);
+    background: crimson;   
+    font-size: 1.5rem;
+    height: 3rem;
+    width: 3rem;
+    text-align: center;
+}
+.box > h3{
+    color: crimson;
+}
+.skill-box-hover:hover{
+    background: rgb(110, 110, 110);
+}

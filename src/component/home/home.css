@@ -1,0 +1,42 @@
+ .home-container{
+    align-items: center;
+  }
+.home-img-container{
+   overflow: hidden;
+}
+.home-img-container img{
+
+border-radius:30% 70% 60% 40% / 30% 30% 70% 70% ;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.home-detail-container{
+color: white;
+line-height: 1.5rem;
+}
+.home-detail-container >h1{
+    margin:1rem 0 ;
+}
+.home-detail-container >p{
+    /* width:%; */
+    color: rgb(164, 150, 150);
+}
+.home-detail-container >h2{
+    /* font-size: 2rem; */
+    color: crimson;
+    margin: 1rem 0;
+}
+.home-icons{
+    color: crimson;
+    font-size: 3rem;
+}
+.home-about-btn:hover{
+    gap: 1.2rem;
+}
+
+h6{
+    color: white;
+}
+
+ 
